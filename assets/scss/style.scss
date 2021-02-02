@@ -1,0 +1,50 @@
+li{
+    list-style-type: none;
+  
+}
+header{
+    nav{
+        display:flex;
+        width: 100%;
+        margin-bottom:12px;
+       a{
+           img{
+            margin-top: 20px;
+            margin-left: 90px;
+           }
+       }
+       ul{
+        margin-top: 37px;
+        margin-left: 2px;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+       }
+       li{
+           margin-left: 80px;
+       }
+    };
+}
+.header-icon{
+    margin-top: 37px;
+    margin-left: 200px;
+    display: flex;
+    color:#5a5a5a;
+    #slash{
+        width: 10px;
+        height: 20px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 2px solid;
+        color: rgb(202, 201, 201);
+    }
+   a{
+    #logo-shop{
+        margin-left:12px;
+     }
+     #logo-man{
+        margin-right: 7px;
+     }
+   }
+}
