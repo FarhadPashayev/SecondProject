@@ -1,13 +1,13 @@
-#screen-shader{
-    display: none!important;
+#screen-shader {
+  display: none !important;
 }
 .banner {
   position: relative;
-  .animation-span{
-      position: absolute;
-      height: 600px ;
-      width: 700px ;
-      z-index: -1;
+  .animation-span {
+    position: absolute;
+    height: 600px;
+    width: 700px;
+    z-index: -1;
   }
   .banner-img {
     position: relative;
@@ -37,7 +37,7 @@
     width: 10px;
     height: 10px;
     background-color: #000;
-    box-shadow: 0px 6px 13px 0px rgba(0 ,0, 0 , 0.25);
+    box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.25);
     animation: animationFramesTwo 18s infinite alternate;
     z-index: 1;
     position: absolute;
@@ -48,7 +48,7 @@
     width: 10px;
     height: 10px;
     background-color: #ff5520;
-    box-shadow: 0px 6px 13px 0px rgba(255, 85 ,32 ,0.25);
+    box-shadow: 0px 6px 13px 0px rgba(255, 85, 32, 0.25);
     animation: animationFramesOne 12s infinite alternate;
     z-index: 1;
     position: absolute;
@@ -59,7 +59,7 @@
     right: 50%;
     bottom: 200px;
     background-color: #0000fe;
-    box-shadow: 0px 6px 13px 0px rgba(0, 0 ,254, 0.25);
+    box-shadow: 0px 6px 13px 0px rgba(0, 0, 254, 0.25);
     animation: animationFramesTwo 18s infinite alternate;
     z-index: 1;
     position: absolute;
@@ -84,35 +84,34 @@
       transform: translate(0px, 0px) rotate(0deg);
     }
   }
-  @keyframes  animationFramesTwo{
+  @keyframes animationFramesTwo {
     0% {
-        transform: translate(0px, 0px) rotate(0deg) scale(1);
+      transform: translate(0px, 0px) rotate(0deg) scale(1);
     }
     20% {
-        transform: translate(73px, -1px) rotate(36deg) scale(0.9);
+      transform: translate(73px, -1px) rotate(36deg) scale(0.9);
     }
     40% {
-        transform: translate(141px, 72px) rotate(72deg) scale(1);
+      transform: translate(141px, 72px) rotate(72deg) scale(1);
     }
     60% {
-        transform: translate(83px, 122px) rotate(108deg) scale(1.2);
+      transform: translate(83px, 122px) rotate(108deg) scale(1.2);
     }
     80% {
-        transform: translate(-40px, 72px) rotate(104deg) scale(1.1);
+      transform: translate(-40px, 72px) rotate(104deg) scale(1.1);
     }
     100% {
-        transform: translate(0px, 0px) rotate(0deg) scale(1);
+      transform: translate(0px, 0px) rotate(0deg) scale(1);
     }
   }
-  
-  
+
   .container {
-      position: relative;
+    position: relative;
     .banner-text {
       max-width: 540px;
       z-index: 1;
       overflow: hidden;
-    padding: 130px 0px 180px;
+      padding: 130px 0px 180px;
     }
     .banner-tag {
       padding-right: 30px;
@@ -132,7 +131,6 @@
         font-family: "Roboto";
         font-size: 16px;
         line-height: 1.625;
-        
       }
       p {
         color: #000000;
@@ -142,7 +140,6 @@
         display: inline-block;
         font-family: "Roboto";
         margin-bottom: 0;
-        
       }
     }
 
@@ -158,6 +155,49 @@
       font-size: 20px;
       line-height: 1.6;
       padding-bottom: 40px;
+    }
+    .banner-btn-wrap {
+      
+      .banner-btn {
+        line-height: 55px;
+        a {
+          color: #fff;
+          width: 160px;
+          height: 55px;
+          display: block;
+          overflow: hidden;
+          font-weight: 700;
+          border-radius: 40px;
+          background-color: #ff5520;
+          z-index: 1;
+          position: relative;
+          text-decoration: none;
+          font-family: "Roboto";   
+          text-align: center;   
+          
+        }
+      }
+      .banner-play {
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        line-height: 50px;
+        border-radius: 100%;
+        transition: 0.3s all ease-in-out;
+        background-color: #0000fe;
+        a{
+          color: #fff;
+          width: 100%;
+          display: block;
+          text-decoration: none;
+          line-height: 50px;
+          text-align: center;
+          
+          
+        }
+        
+      }
     }
   }
 }
