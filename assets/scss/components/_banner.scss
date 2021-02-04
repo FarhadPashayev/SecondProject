@@ -1,0 +1,49 @@
+.banner {
+    position: relative;
+    margin-top: 90px;
+  .banner-img {
+    width: 50%;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    
+  }
+  .container{
+
+      .banner-tag{
+        padding-right: 30px;
+        border-radius: 40px;
+        display: inline-block;
+        margin-bottom: 45px;
+        background-color: #efeff0;
+        
+        span{
+            color: #fff;
+            font-weight: 500;
+            padding: 12px 30px;
+            margin-right: 10px;
+            border-radius: 40px;
+            display: inline-block;
+            background-color: #0000fe;
+            font-family: "Roboto";
+            font-size: 16px;
+            line-height: 1.625;
+            
+          }
+          p{
+            color: #000000;
+            font-size: 16px;
+            font-weight: 500;
+            padding-bottom: 0;
+            display: inline-block;
+            font-family: "Roboto";
+            margin-bottom: 0;
+          }
+      }
+      
+      h1{
+
+      }
+  }
+
+}
