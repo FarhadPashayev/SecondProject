@@ -186,8 +186,8 @@
         border-radius: 100%;
         transition: 0.3s all ease-in-out;
         background-color: #0000fe;
-        &:hover{
-          background-color:#dc3545;
+        &:hover {
+          background-color: #dc3545;
         }
         a {
           color: #fff;
@@ -209,33 +209,32 @@
             animation-play-state: running;
             border: 2px solid rgba(138, 136, 136, 0.32);
             animation: border_animation 3.9s linear 0s infinite;
-            
           }
-            @keyframes border_animation{
-              0% {
-                transform: scale(1);
-                opacity: 0;
+          @keyframes border_animation {
+            0% {
+              transform: scale(1);
+              opacity: 0;
             }
             20% {
-                transform: scale(1.24);
-                opacity: 1;
+              transform: scale(1.24);
+              opacity: 1;
             }
             100% {
-                transform: scale(2.1);
-                opacity: 0;
+              transform: scale(2.1);
+              opacity: 0;
             }
-            } 
-           
-          .border-wrap2{
+          }
+
+          .border-wrap2 {
             animation-delay: 1.3s;
           }
-          .border-wrap3{
+          .border-wrap3 {
             animation-delay: 2.6s;
           }
         }
       }
     }
-    .banner-mark{
+    .banner-mark {
       left: 0;
       bottom: -40px;
       opacity: 0.05;
@@ -247,6 +246,5 @@
       position: absolute;
       font-family: "Fira Sans";
     }
-    
   }
 }

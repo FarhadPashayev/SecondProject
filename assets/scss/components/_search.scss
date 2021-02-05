@@ -1,4 +1,5 @@
 .search-form {
+  position: relative;
   display: flex;
   background-color: #fff;
   border-radius: 10px;
@@ -7,20 +8,32 @@
   width: 52%;
   height: 95px;
   align-items: center;
-  position: absolute;
   margin-left: 89px;
   bottom: -29px;
   justify-content: space-between;
-
+  .banner-shape1,
+  .banner-shape2 {
+    position: absolute;
+  }
+  .banner-shape1 {
+    left: -20px;
+    z-index: -1;
+    top: -60px;
+  }
+  .banner-shape2 {
+    bottom: -60px;
+    right: -20px;
+    z-index: -1;
+  }
   .banner-category {
     list-style-type: none;
     display: flex;
     align-items: center;
 
-   i{
-       font-size: 12px;
-       margin-left: 3px;
-   }
+    i {
+      font-size: 12px;
+      margin-left: 3px;
+    }
 
     a {
       color: #000;
@@ -49,15 +62,13 @@
   }
 }
 main {
-  position: relative;
-
   .select-apply-btn {
     position: absolute;
     top: 40px;
     left: 94px;
     p {
-        color: #000;
-        font-size: 15px;
+      color: #000;
+      font-size: 15px;
     }
     a {
       font-weight: 700;
