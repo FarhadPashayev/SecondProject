@@ -17,16 +17,16 @@
       font-weight: 900;
       margin-bottom: 0;
       text-align: center;
-      font-family: $primary-font;
+      font-family: #0000fe;
       position: absolute;
     }
     span {
       font-size: 18px;
       font-weight: 700;
-      color: $primary-color;
+      color: #0000fe;
       padding: 0px 15px;
       position: relative;
-      font-family: $primary-font;
+      font-family:#0000fe;
     }
     h2 {
       color: #000;
@@ -53,6 +53,64 @@
         line-height: 1;
         color: #efefef;
         transition: 0.3s all ease-in-out;
+      }
+    }
+    .testimonial-text {
+      h3 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0000fe;
+        padding-bottom: 15px;
+        font-family: "Fira Sans"
+      }
+      p {
+        font-family:  sans-serif;
+        color: #666666;
+      }
+    }
+    .testimonial-author {
+      margin-top: 20px;
+      display: flex;
+      img {
+        width: 65px;
+        height: 65px;
+        overflow: hidden;
+        margin-right: 12px;
+        border-radius: 100%;
+      }
+      .testi-author-text {
+        display: block;
+        padding-top: 7px;
+        h4 {
+          margin-top: 0;
+          margin-bottom: 0.5rem;
+          font-weight: 500;
+          line-height: 1.2;
+          font-size: 14px;
+          font-weight: 700;
+          font-family: "Roboto";
+          position: relative;
+          bottom: -9px;
+          font-family: sans-serif;
+          a {
+            text-decoration: none;
+            color: #000;
+          }
+        }
+        span {
+          color: #888888;
+          font-size: 14px;
+        }
+      }
+    }
+    &:hover {
+      transform: translateY(-15px);
+      box-shadow: 0px 36px 20px 0px rgba(12, 12, 12, 0.07);
+
+      .testimonial-icon {
+        i {
+          color: #ff5520;
+        }
       }
     }
   }
