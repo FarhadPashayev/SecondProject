@@ -22,16 +22,17 @@
       font-weight: 900;
       margin-bottom: 0;
       text-align: center;
-
+      font-family: "Fira Sans";
       position: absolute;
     }
 
     span {
       font-size: 18px;
       font-weight: 700;
-      color: $primary-color;
+      color: #0000fe;
       padding: 0px 15px;
       position: relative;
+      font-family: "Roboto";
     }
     h2 {
       color: #000;
@@ -69,7 +70,7 @@
             color: #555555;
             font-size: 18px;
             margin-right: 12px;
-            font-family: $primary-font;
+            font-family: "Roboto";
             font-weight: 400;
           }
           .course-price {
@@ -80,7 +81,7 @@
               color: #555555;
               font-size: 18px;
               margin-right: 12px;
-              font-family: $primary-font;
+              font-family: "Roboto";
               font-weight: 400;
             }
             strong {
@@ -102,7 +103,7 @@
             font-weight: 700;
             line-height: 1.444;
             padding-bottom: 8px;
-            font-family: $secondary-font;
+            font-family: "Fira Sans";
             font-weight: 700;
             transition: 0.3s all ease-in-out;
           }
@@ -118,9 +119,10 @@
               overflow-x: hidden;
               line-height: 1.625;
               font-family: "Roboto";
+
               i {
                 margin-right: 5px;
-                color: $primary-color;
+                color: #0000fe;
               }
             }
           }
@@ -176,7 +178,7 @@
         transform: scale(1.1);
       }
       &:hover .course-title h3 {
-        color: $secondary-color;
+        color:#ff5520;
       }
     }
     .course-btn {
@@ -189,16 +191,16 @@
           margin: 0 auto;
           font-size: 15px;
           font-weight: 700;
-         
+          font-family: "Roboto";
           line-height: 50px;
           overflow: hidden;
           border-radius: 40px;
           width: 170px;
           text-align: center;
-          background-color: $primary-color;
+         background-color: #0000fe;
           transition: all 0.5s;
           &:hover {
-            background-color: $secondary-color;
+            background-color:#ff5520;
           }
           i {
             padding-left: 5px;
