@@ -2,7 +2,42 @@
   padding-top: 75px;
   padding-bottom: 50px;
   background-color: #f7f7f7;
-
+   .section-title{
+    margin-bottom: 40px;
+    position: relative;
+    max-width: 590px;
+    margin: 0 auto;
+    text-align: center;
+   }
+   .title-watermark{
+    left: 0;
+    right: 0;
+    top: -60px;
+    opacity: 0.04;
+    color: #53536c;
+    line-height: 1;
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: sans-serif;
+    position: absolute;
+   }
+   .color{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0000fe;
+    padding: 0px 15px;
+    position: relative;
+    font-family: sans-serif;
+   }
+   h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.125;
+    padding: 15px 0px 20px;
+   }
   .categories-item-box {
     margin: 0 auto;
     max-width: 370px;
@@ -44,7 +79,7 @@
         text-align: center;
 
         a {
-            color: #fff;
+          color: #fff;
           font-size: 30px;
           font-weight: 700;
           line-height: 1.1;
@@ -56,6 +91,7 @@
             display: block;
             font-size: 16px;
             font-weight: 400;
+       
           }
         }
       }
@@ -91,8 +127,6 @@
 
       .title {
         h3 {
-            // burda qalmisan 
-            color: inherit;
           font-size: 24px;
           font-weight: 700;
           margin-bottom: 15px;
@@ -108,35 +142,37 @@
             content: "";
             width: 37px;
             position: absolute;
-            // background-color: $red-color;
+            background-color: #fd7e14;
           }
 
           a {
             transition: 0.3s all ease-in-out;
             text-decoration: none;
-
-            // &:hover {
-            //   color: $red-color;
-            // }
+            color: #000;
+            &:hover {
+              color: #fd7e14;
+            }
           }
         }
 
         p {
           padding-bottom: 14px;
+          color: #555555;
         }
 
         .read-more {
-        //   color: $title-color;
+          color: #000;
           display: inline-block;
           font-size: 14px;
           font-weight: 700;
           transition: 0.3s all ease-in-out;
           position: relative;
           text-transform: uppercase;
+          text-decoration: none;
 
-        //   &:hover {
-        //     color: $secondary-color;
-        //   }
+          &:hover {
+            color: #0000fe;
+          }
 
           &::after {
             left: 0;
@@ -146,7 +182,7 @@
             height: 1px;
             position: absolute;
             transition: 0.3s all ease-in-out;
-            // background-color: $secondary-color;
+            background-color: #0000fe;
           }
 
           &:hover::after {
