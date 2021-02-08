@@ -28,8 +28,8 @@ header {
       & > a::after {
         // display: none;
         top: 26px;
-        left: 25px;
-        width: 10px;
+        left: 35px;
+        width: 0px;
         content: "";
         height: 5px;
         position: absolute;
@@ -40,13 +40,21 @@ header {
       & > a::before {
         top: 26px;
         left: 10px;
-        width: 10px;
+        width: 0px;
         content: "";
         height: 5px;
         position: absolute;
         border-radius: 100%;
         background-color: #0000fe;
         transition: 0.3s all ease-in-out;
+      }
+      &:hover {
+        a::before {
+          width: 24px;
+        }
+        a::after{
+          width: 5px; 
+        }
       }
     }
 
@@ -76,13 +84,9 @@ header {
         opacity: 0;
       }
       &:hover {
-        a::after {
-          width: 5px;
-        }
-
         .dropdown-menu {
           visibility: visible;
-          margin-top: 0px;
+          margin-top: 11px;
           opacity: 1;
         }
       }
