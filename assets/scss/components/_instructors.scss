@@ -37,6 +37,9 @@
 
                     a {
                         transition: 0.4s all ease-in-out;
+                        text-decoration: none;
+                        color: inherit;
+                        font-family: "Fira Sans";
                     }
                 }
 
@@ -44,7 +47,7 @@
                     color: #000;
                     font-weight: 700;
                     padding: 5px 0px;
-                    font-family: #ff5520;
+                    font-family: "Fira Sans";
                     display: block;
                     font-size: 14px;
                     transition: 0.4s all ease-in-out;
@@ -54,6 +57,7 @@
                     display: block;
                     font-size: 14px;
                     transition: 0.4s all ease-in-out;
+                    color: #888888;
                 }
 
                 &::after {
