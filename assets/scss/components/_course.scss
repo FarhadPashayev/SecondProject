@@ -67,7 +67,7 @@
           justify-content: space-between;
           align-items: center;
           span {
-            color: #555555;
+            color: #000;
             font-size: 18px;
             margin-right: 12px;
             font-family: "Roboto";
@@ -96,6 +96,7 @@
           margin-bottom: 15px;
           padding-bottom: 15px;
           border-bottom: 2px solid #e9e9e9;
+         
           h3 {
             font-size: 18px;
             color: #000;
@@ -110,6 +111,7 @@
           .course-meta {
             display: flex;
             justify-content: space-between;
+            
             a {
               text-decoration: none;
               margin: 0;
@@ -121,6 +123,7 @@
               font-family: "Roboto";
 
               i {
+               
                 margin-right: 5px;
                 color: #0000fe;
               }
