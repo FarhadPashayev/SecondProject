@@ -27,8 +27,9 @@
                         font-weight: 700;
                         margin-right: 25px;
                         position: relative;
-                        color: #ff5520;
+                        color: #0000fe;
                         font-family: sans-serif;
+                        text-decoration: none;
 
                         &::after {
                             top: -3px;
@@ -37,7 +38,7 @@
                             right: -16px;
                             height: 20px;
                             position: absolute;
-                            background-color: #ff5520;
+                            background-color: #0000fe;
                         }
 
                         &.no-line {
@@ -57,7 +58,7 @@
                     font-style: italic;
                     margin-bottom: 35px;
                     padding: 20px 0px 20px 60px;
-                    border-left: 4px solid #dc3545;
+                    border-left: 4px solid #ff5520;
 
                     .blockquote-author {
                         font-style: normal;
@@ -100,9 +101,10 @@
                             border: 1px solid #e5e5e5;
                             position: relative;
                             transition: all .4s linear;
+                            text-decoration: none;
 
                             &:hover {
-                                background-color: #dc3545;
+                                background-color: #ff5520;
                                 border: 1px solid #000;
                                 color: #fff;
                             }
@@ -127,6 +129,7 @@
                             border-radius: 100%;
                             display: inline-block;
                             transition: 0.3s all ease-in-out;
+                            text-decoration: none;
 
                             &.facebook {
                                 background-color: #3b5998;
@@ -163,12 +166,13 @@
                 .next-prev-title {
                     margin-bottom: 15px;
                     padding-bottom: 15px;
-                    border-bottom: 2px solid #dc3545;
+                    border-bottom: 2px solid #ff5520;
 
                     a {
                         color: #000;
                         font-weight: 700;
                         font-size: 15px;
+                        text-decoration: none;
 
                         i {
                             font-size: 12px;
@@ -182,6 +186,7 @@
                     font-size: 18px;
                     font-weight: 700;
                     font-family: sans-serif;
+                   
                 }
 
                 &.text-end {
@@ -253,7 +258,7 @@
                             position: absolute;
                             line-height: 42px;
                             border-radius: 30px;
-                            background-color:#dc3545;
+                            background-color:#ff5520;
                             text-align: center;
                         }
                     }
@@ -296,7 +301,7 @@
                         height: 48px;
                         position: absolute;
                         border-radius: 4px;
-                        background-color:#dc3545;
+                        background-color:#ff5520;
                     }
                 }
             }
@@ -325,9 +330,10 @@
                             font-weight: 700;
                             position: relative;
                             transition: 0.4s all ease-in-out;
+                            text-decoration: none;
 
                             i {
-                                color: #dc3545;
+                                color: #ff5520;
                                 font-size: 14px;
                             }
 
@@ -347,8 +353,9 @@
                         display: inline-block;
                         border: 1px solid #e5e5e5;
                         transition: all .4s linear;
+                        text-decoration: none;
                         &:hover{
-                            background-color: #dc3545;
+                            background-color: #ff5520;
                             border: 1px solid #0000fe;
                             color:#fff;
                         }
